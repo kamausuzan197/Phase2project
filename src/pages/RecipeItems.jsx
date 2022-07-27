@@ -5,7 +5,6 @@ import Recipes from "./Recipes";
 export default function RecipeItem() {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
 
   const fetchData = async () => {
     const response = await axios.get(
