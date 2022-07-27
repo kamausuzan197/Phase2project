@@ -1,11 +1,11 @@
-
 #navbar{
-    background-color: bisque;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
     padding:0;
-    margin: 0;
     list-style-type:none;
+    border-bottom: 2px solid #ccc;
+    /* width: 100%; */
 }
 #list{
     padding:15px;
@@ -13,4 +13,5 @@
 }
 #link{
     text-decoration: none;
+    color: black;
 }
